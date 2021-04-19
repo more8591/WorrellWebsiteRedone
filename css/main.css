@@ -1,0 +1,160 @@
+/***
+Key Body Feat.
+***/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:WGHT@100;500;900;&display=swap');
+
+body, section {
+ margin:0;
+ padding:0;
+ overflow-x: hidden;
+ color: #3c3c3c;
+ font-family: sans-serif;
+}
+a, li {
+ text-decoration: none;
+ color: inherit;
+ list-style: none;
+}
+p {
+ margin: 5px 0px;
+}
+header {
+ position: absolute;
+ width: 100%;
+ padding: 20px 0px;
+ z-index: 99;
+}
+.smooth-container {
+ scroll-behavior: smooth;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+textarea, input {
+ border: 0;
+}
+/***
+Text Font Styles
+***/
+.head-title, .sub-title {
+ font-family: 'Montserrat', sans-serif;
+ margin: 0;
+}
+/***
+Images
+***/
+.section_img {
+ width: 100vw;
+ margin: 0;
+}
+.section_img {
+ z-index: -1;
+}
+.crop_img {
+ width: 100%;
+ height: 1080px;
+ overflow: hidden;
+}
+/***
+Button Styles
+***/
+.btnStyle-1 {
+ /*FOR LIGHT BG*/
+ background: #2e5673;
+ float: right;
+ border: none;
+ font-size: 15px;
+ color: white;
+ padding: 10px 15px;
+ text-align: center;
+ text-transform: uppercase;
+}
+.btnStyle-2 {
+/*FOR DARK BG*/
+}
+/***
+Content Styles
+***/
+.content {
+ text-align: center;
+ width: 100%;
+ position: absolute;
+  left: 50%;
+  margin: 30vw 0;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.contentBlock {
+ margin: 3vw;
+}
+.head-title {
+ text-transform: uppercase;
+ font-size: 5vw;
+}
+.sub-title {
+ text-transform: lowercase;
+ font-size: 1.5vw;
+}
+.bold-title {
+ text-transform: uppercase;
+ font-size: 2.5em;
+ font-weight: bold;
+ letter-spacing: 5px;
+}
+/***
+Input Form Style
+***/
+.contactForm {
+ width: 25vw;
+ position: absolute;
+ right: 5vw;
+ top: 25vh;
+ background: white;
+ border-radius: 15px;
+ padding: 35px;
+}
+input {
+ border-bottom: solid 2px black;
+ font-size: 20px;
+ letter-spacing: 3px;
+}
+.inputBlock {
+ display: block;
+ text-align: left;
+ padding: 1vw;
+}
+.inputBlock > p {
+ font-size: 15px;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+ font-family: sans-serif;
+}
+input[type="text"] {
+ width: 100%;
+}
+textarea {
+ border: solid black 2px;
+ font-family: sans-serif;
+ font-size: 15px;
+ width: 100%;
+ height: 5em;
+ resize: none;
+}
+/***
+iFrame Style
+***/
+.iframeMap {
+ width: 100vw;
+ height: 100vh;
+}
+/***
+Footer Style
+***/
+footer > img {
+ position: absolute;
+ right: 0;
+ bottom: 10em;
+}
+.footerBlock {
+ float: left;
+}

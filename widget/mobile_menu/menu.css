@@ -1,0 +1,88 @@
+/***
+Website Menu Style
+***/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&display=swap');
+
+.sticky {
+ position: fixed;
+}
+.bgbar {
+ background: #1e384b;
+ color: white;
+}
+.sizeDown {
+ animation-name: ani-SMbar;
+ animation-duration: 1s;
+ animation-fill-mode: forwards;
+}
+#logo {
+ width: 85%;
+}
+.nav_links {
+ font-family: 'Oxygen', sans-serif;
+ float: left;
+ margin: 0px 15px;
+ font-size: 15px;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+}
+.logo-container, nav {
+ float: left;
+ padding: 30px;
+}
+.logoSM {
+ animation-duration: 1s;
+ animation-fill-mode: forwards;
+ animation-name: ani-logoSM;
+}
+.navtxtSM {
+ animation-duration: 1s;
+ animation-fill-mode: forwards;
+ animation-name: ani-txtSM;
+}
+#nav-container {
+ position: absolute;
+ right: 0;
+}
+/***
+Menu Button Style
+***/
+.menuBtn {
+ border-color: #0088ce;
+ background: #2e5673;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #0088ce 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #0088ce 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+ padding: 10px 15px;
+}
+.menuBtn:hover {
+ background-position: 0;
+}
+/***
+Menu Animation
+***/
+@keyframes ani-SMbar {
+  100% {
+   padding: 0px 0px;
+  }
+}
+@keyframes ani-logoSM {
+ 0% {
+  width: 100%;
+ }
+ 100% {
+  width: 50%;
+ }
+}
+@keyframes ani-txtSM {
+ 0% {
+  font-size: 15px;
+ }
+ 100% {
+  font-size: 12px;
+ }
+}

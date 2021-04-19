@@ -1,0 +1,4 @@
+Developer Notes:
+----------------
+*Use the jQuery .load() to load HTML elements into the index DOM
+https://api.jquery.com/load/
